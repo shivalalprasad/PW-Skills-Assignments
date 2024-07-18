@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment : Getting Started With HTML</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="https://pwskills.com/images/favicon.ico"/>
+  </head>
+  <body>
+    <hr/><pre class="question" id="q1">
+1. Write a simple program in HTML that displays the heading "HTML defines the content and structure of your website" on the web browser?</pre
+    >
+    <hr />
+    <div>
+      <textarea readonly="readonly" disabled class="answer1 code">
+           <!DOCTYPE html>
+           <html>
+              <head>
+                <title>Assignment : Getting Started With HTML</title>
+              </head>
+            <body>
+               <h1>HTML defines the content and structure of your website</h1>
+            </body>
+           </html>
+      </textarea>
+    </div><hr/><p style="margin: 0 10%;font-weight: bolder; font-size: 20px;"><span>Output</span></p><hr/>
+    <diV>
+      <iframe src="1.html" frameborder="4" marginheight="1" marginwidth="1" name="cboxmain" id="cboxmain" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" ></iframe>
+      <!-- <iframe frameborder="0" style="height: 185px; overflow:scroll; width: 100%" src="http://www.cbox.ws/box/?boxid=439&boxtag=7868&sec=main" marginheight="1" marginwidth="1" name="cboxmain" id="cboxmain" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe> -->
+    </diV>
+    <div style="margin-left: 81%; margin-right: 9%; margin-bottom: 1%; font-weight: bolder;">
+      <a href="1.html" target="_blank" > <button>Open in New Tab</button></a></div>
+    <hr class="hr"/><hr/>
+    <pre class="question" id="q2">
+2. Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML document?</pre>
+    <hr />
+    <pre class="answer2"><span>==> What Are Comments?</span>
+      Comments are lines of text within your HTML code that are not displayed on the webpage itself.
+      They are intended for developers to add notes, explanations, or reminders directly within the code.<br/>
+      <span>--> Uses of Comments</span>
+      <span>=> Readability:</span> Make your code easier to understand for yourself and others.
+      <span>=> Debugging:</span> Temporarily disable sections of code to test for errors.
+      <span>=> Collaboration:</span> Communicate with other developers working on the same project.<br/>
+      <span>There are two ways of Writing Comments </span>
+      <span>=> Single-line Comments :</span> The single-line comment is given inside the ( &lt;!–--  comment --–&gt; ) tag</pre>
+      <pre><textarea readonly="readonly" disabled class="answer2code1 code">
+        <!DOCTYPE html>
+        <html>
+          <body>
+            <!--This is heading Tag-->
+            <h1>Shivalal Prasad</h1>
+            <!--This is single line comment-->
+            <h2>This is <!--given for--> single line comment</h2>
+          </body>
+        </html>        
+      </textarea></pre>
+      <hr/><p style="margin: 0 10%;font-weight: bolder; font-size: 20px;"><span>Output</span></p><hr/>
+    <diV>
+      <iframe src="2-1.html" frameborder="4" marginheight="1" marginwidth="1" name="cboxmain" id="cboxmain" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" ></iframe>
+      <!-- <iframe frameborder="0" style="height: 185px; overflow:scroll; width: 100%" src="http://www.cbox.ws/box/?boxid=439&boxtag=7868&sec=main" marginheight="1" marginwidth="1" name="cboxmain" id="cboxmain" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe> -->
+    </diV>
+    <div style="margin-left: 81%; margin-right: 9%; margin-bottom: 1%; font-weight: bolder;">
+      <a href="2-1.html" target="_blank" > <button>Open in New Tab</button></a></div>
+    <pre class="answer2">
+      <span>=> Multi-line Comments :</span>It follows the syntax of a single-line comment by adding multiple lines in the comment.</pre>
+  <pre><textarea readonly="readonly" disabled class="answer2code2 code">
+        <!DOCTYPE html>
+        <html>
+         <body>
+            <!-- This is 
+             heading tag -->
+           <h1>Shivalal Prasad</h1>
+             <!-- This is
+             multi-line
+            comment -->
+           <h2>This is multi-line comment</h2>
+            <!-- <button style="font-family: Sans-serif;">
+            Click Me
+            </button> -->
+          </body>
+        </html>
+      </textarea></pre>
+      <pre class="answer2">
+        <span>=> *Comments are ignored by the Browser</span></pre>
+    </pre><hr/><p style="margin: 0 10%;font-weight: bolder; font-size: 20px;"><span>Output</span></p><hr/>
+    <diV>
+      <iframe src="2-2.html" frameborder="4" marginheight="1" marginwidth="1" name="cboxmain" id="cboxmain" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" ></iframe>
+      <!-- <iframe frameborder="0" style="height: 185px; overflow:scroll; width: 100%" src="http://www.cbox.ws/box/?boxid=439&boxtag=7868&sec=main" marginheight="1" marginwidth="1" name="cboxmain" id="cboxmain" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe> -->
+    </diV>
+    <div style="margin-left: 81%; margin-right: 9%; margin-bottom: 1%; font-weight: bolder;">
+      <a href="2-2.html" target="_blank" > <button>Open in New Tab</button></a></div>
+    <hr class="hr"/><hr/>
+    <pre class="question" id="q3">3. Write an HTML program that includes a heading, a paragraph of text, a horizontal line,<br/>   and a line break. Arrange these elements to create a simple web page layout?</pre><hr/>
+    <pre><textarea readonly="readonly" disabled class="answer2code3 code">
+      <!DOCTYPE html>
+      <html>
+       <body>
+          <h1>HTML defines the content and structure of your website</h1>
+          <p>HTML, short for HyperText Markup Language, is the standard 
+            language for creating web pages and applications. It provides the structure
+             and meaning for content displayed in web browsers.</p>
+          <hr/>
+          <p>HTML has evolved over time, with newer versions introducing new 
+            features and capabilities.<br/> The latest version, HTML5, includes
+             features for multimedia, graphics,<br/> and offline applications.</p>
+       </body>
+      </html>
+    </textarea></pre>
+    <hr/><p style="margin: 0 10%;font-weight: bolder; font-size: 20px;"><span>Output</span></p><hr/>
+    <diV  class="a3frame" >
+      <iframe src="3.html" frameborder="4" marginheight="1" marginwidth="1" name="cboxmain" id="cboxmain" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" ></iframe>
+      <!-- <iframe frameborder="0" style="height: 185px; overflow:scroll; width: 100%" src="http://www.cbox.ws/box/?boxid=439&boxtag=7868&sec=main" marginheight="1" marginwidth="1" name="cboxmain" id="cboxmain" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe> -->
+    </diV>
+    <div style="margin-left: 81%; margin-right: 9%; margin-bottom: 1%; font-weight: bolder;">
+      <a href="3.html" target="_blank" > <button>Open in New Tab</button></a></div>
+    <hr class="hr"/>
+    <hr/>
+    <pre class="question" id="q4">4. Write a short note on Tag and element with an example?</pre><hr/>
+    <pre class="answer">In HTML, a tag is the text enclosed in angle brackets. For example,
+      `&lt;p&gt;` (paragraph) is a tag. 
+
+      An element refers to the entire unit, starting with the opening tag, encompassing the content, and concluding with the closing tag. 
+      An example of an element is:
+       `&lt;p&gt;This is a paragraph.&lt;/p&gt;`. 
+      
+      Some elements, called "empty" or "void" elements, don't have content or closing tags, such as `&lt;br&gt;` (line break) or `&lt;img&gt;` (image).
+      
+      Tags are the building blocks of HTML, and elements provide structure and meaning to the content within a web page.
+      </pre>
+    <hr class="hr"/>
+    <hr/><pre class="question" id="q5">5. What is the DOCTYPE Declaration in HTML?</pre>
+    <hr/>
+    <pre class="answer" id>HTML Doctypes declared at the beginning of HTML documents, inform browsers about the document type and version, ensuring correct rendering.
+They aren’t HTML tags but provide essential information. The most common doctype is <!DOCTYPE html>, used for HTML5, ensuring modern web standards.</pre>
+  </body>
+</html>

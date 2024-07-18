@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="icon" href="https://pwskills.com/images/favicon.ico"/>
+    <style>
+        *::-webkit-scrollbar{
+            display: none;
+        }
+        .gallery{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        justify-content: center;
+        }
+        .gallery img{
+            height: -webkit-fill-available;
+            height: 82%;
+            width: 91%;
+            /* width: 50vh; */
+            margin: 20px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1552578145-3cf419f1b375?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlZSUyMHBob3RvfGVufDB8fDB8fHww" alt="mountian picture"/>
+        <img src="https://images.unsplash.com/photo-1596124006538-6d7594009d37?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZnJlZSUyMHBob3RvfGVufDB8fDB8fHww" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1552578147-65b944bd22c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlZSUyMHBob3RvfGVufDB8fDB8fHww" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1606995909859-06b330ee01ca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJlZSUyMHBob3RvfGVufDB8fDB8fHww" alt="Nature"/>
+        <img src="https://plus.unsplash.com/premium_photo-1668116307088-583ee0d4aaf7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZyZWUlMjBwaG90b3xlbnwwfHwwfHx8MA%3D%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1552578147-cf81ea9bc836?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZyZWUlMjBwaG90b3xlbnwwfHwwfHx8MA%3D%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1552578147-ca5d011e516b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGZyZWUlMjBwaG90b3xlbnwwfHwwfHx8MA%3D%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1526750925531-9e8fdbf95de3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGZyZWUlMjBwaG90b3xlbnwwfHwwfHx8MA%3D%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1562381013-1350344a3f5c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fGZyZWUlMjBwaG90b3xlbnwwfHwwfHx8MA%3D%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1605206809053-3fcd553e9052?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGZyZWUlMjBwaG90b3xlbnwwfHwwfHx8MA%3D%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1605206809620-f13463473f1a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fGZyZWUlMjBwaG90b3xlbnwwfHwwfHx8MA%3D%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1597878303023-2f8a7f453087?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZyZWUlMjBwaG90b3xlbnwwfHwwfHx8MA%3D%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1641683544552-a98c3056d6ed?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTZ8fGZyZWUlMjBwaG90b3xlbnwwfHwwfHx8MA%3D%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1596550782892-01e5f0229ce7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ0fHxmcmVlJTIwcGhvdG98ZW58MHx8MHx8fDA%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1596625820723-f0f481ff80be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY2fHxmcmVlJTIwcGhvdG98ZW58MHx8MHx8fDA%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1549575367-f99dd9e27774?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fGZyZWUlMjBwaG90b3xlbnwwfHwwfHx8MA%3D%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1605206809417-31eed948187f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxmcmVlJTIwcGhvdG98ZW58MHx8MHx8fDA%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1495210888046-272ee78072f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE4fHxmcmVlJTIwcGhvdG98ZW58MHx8MHx8fDA%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1605206809644-5259f4937105?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI0fHxmcmVlJTIwcGhvdG98ZW58MHx8MHx8fDA%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1552578146-6b4390cff807?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHxmcmVlJTIwcGhvdG98ZW58MHx8MHx8fDA%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1598468774070-ef45aff485e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQzfHxmcmVlJTIwcGhvdG98ZW58MHx8MHx8fDA%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg2fHxmcmVlJTIwcGhvdG98ZW58MHx8MHx8fDA%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1596466529159-a23dd25bc108?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTcyfHxmcmVlJTIwcGhvdG98ZW58MHx8MHx8fDA%3D" alt="Nature"/>
+        <img src="https://images.unsplash.com/photo-1598993949560-66f3ecae1593?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGZyZWUlMjBwaG90b3xlbnwwfHwwfHx8MA%3D%3D" alt="Nature"/>
+    </div>
+</body>
+</html>

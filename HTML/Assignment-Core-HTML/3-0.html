@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <link rel="icon" href="https://pwskills.com/images/favicon.ico"/>
+    <style>
+        navbar{
+            display: flex;
+            box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        }
+        
+        .nav{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 10px ;
+        }
+        a{
+            text-decoration: none;
+        }
+        a, a:visited, a:hover, a:active {
+            color: inherit;
+        }
+        #mylogo{
+            height: 3rem;
+            /* float: left; */
+            margin-left: 44% ;
+            }
+        #pwlogo{
+            /* float: right; */
+            margin-right: 44% ;
+        }
+        .navlist{
+            text-align: center;
+            background-color: #ffeb00;
+            border: 2px solid black;
+            font-size: 2rem;
+        }
+        hr{
+            height: 1vh;
+            background-color: blue;
+        }
+        main{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        #mypicture img{
+            width: 33vw;
+        }
+        ul{
+            list-style: none;
+        }
+        .myprojects ul li{
+            color: navy;
+            font-size: 1.75rem;
+            line-height: 10vh;
+        }
+        ul{
+            margin: 4% 4%;
+        }
+        ul li{
+            line-height: 12vh;
+            font-size: 2rem;
+            color: darkslateblue;
+        }
+        .projectlink{
+            color: #000050 !important;
+        }
+        li a{
+            background-color: rgb(207, 209, 209);
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <navbar>
+        <img id="pwlogo" src="https://pwskills.com/_next/static/media/pwSkills.c4d7424e.svg" alt="PW_kills_logo"/>
+        <img id="mylogo" src="./my_logo.png" alt="My_logo" />
+    </navbar>
+    <div class="nav">
+        <a href="/">
+             <div class="navlist">
+                Home
+            </div>
+        </a>
+        <a href="/web-development.html">
+           <div class="navlist">
+              Web Development
+             </div>
+        </a> 
+        <a href="/web-design.html"> 
+            <div class="navlist">
+                Web Design
+            </div>
+        </a> 
+    </div>
+    <hr/>
+    <main>
+        <div id="mypicture">
+            <img src="my_picture-oval.png" alt="My Picture">
+        </div>
+        <div id="myinfo">
+            <ul>
+                <li class="myname">Shivalal Prasad</li>
+                <li class="myemail">shivalalprasad04@gmail.com</li>
+                <li class="mynum">+91 80193 23606</li>
+            </ul>
+        </div>
+        <div class="myprojects">
+            <ul>
+                <li>created my College<br/> Physics Department website 
+                    <br/>uded Technologies/ Frameworks<br/> Next.js,Tailwind<br/>
+                <a class="projectlink" href="https://physics-p9fq3dw25-shivalalprasads-projects.vercel.app/" target="_blank"> 👉 check out the website</a></li>
+                
+            </ul>
+        </div>
+    </main>
+</body>
+</html>

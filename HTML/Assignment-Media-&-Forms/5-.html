@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="https://pwskills.com/images/favicon.ico"/>
+    <style>
+      /* .input,
+      .label {
+        display: grid;
+        width: 20vw;
+      }
+      .form {
+        display: grid;
+        grid-template-columns: 20% 25%;
+      } */
+       .main{
+        text-align: center;
+       }
+      li{
+        list-style: none;
+        margin: 20px 20px;
+      }
+      li input{
+        height: 20px;
+        height: 3.5vh;
+        width: 15%;
+        border: 2px solid;
+        border-radius: 25px;
+    }
+    input::placeholder{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+        <form action="#">
+          <div class="form">
+            <div class="input">
+              <ul>
+                <li>
+                  <input
+                    type="text"
+                    id="firstname"
+                    name="user_first_name"
+                    minlength="3"
+                    placeholder="Enter your First Name"
+                    required
+                    autocomplete="off"
+                  />
+                </li>
+                <li>
+                  <input
+                    type="text"
+                    id="lastname"
+                    name="user_last_name"
+                    minlength="3"
+                    placeholder="Enter your Last Name"
+                    required
+                    autocomplete="off"
+                  />
+                </li>
+                <li>
+                  <input
+                    type="email"
+                    id="email"
+                    name="user_email"
+                    placeholder="Enter your Email"
+                    required
+                    autocomplete="off"
+                  />
+                </li>
+                <li>
+                  <input
+                    type="password"
+                    id="password"
+                    name="user_password"
+                    placeholder="Enter your Password"
+                    required
+                  />
+                </li>
+                <li>
+                  <input
+                    type="password"
+                    id="conform_password"
+                    name="user_password"
+                    placeholder="Enter your Password"
+                    required
+                  />
+                </li>
+                <li>
+                  <input
+                    type="number"
+                    id="age"
+                    name="user_age"
+                    min="0"
+                    max="150"
+                    placeholder="Enter your age"
+                    required
+                    autocomplete="off"
+                  />
+                </li>
+                </ul>
+            
+                  <span>Male<input type="radio" id="Male" name="gender" required /></span>
+                  <span>Female<input type="radio" id="Female" name="gender" /></span>
+
+                  <input type="checkbox" name="TandC" id="TandC" required />
+            
+            </div>
+          </div>
+          <input type="submit" value="sugnup" />
+        </form>
+    </div>
+  </body>
+</html>

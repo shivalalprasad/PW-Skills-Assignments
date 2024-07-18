@@ -1,0 +1,27 @@
+* {
+    margin: 0;padding: 0;
+}
+
+nav{
+    margin-top: 25px;
+    height: 100px;
+    background-color:#18A4E0 ;
+
+}
+ul{
+    padding: 25px;
+    margin-top: 16px;
+    li {
+        display: inline;
+        list-style-type: none;
+        padding: 0 25px;
+        font-size: xx-large;
+        text-decoration: underline;
+        color: #FAF8F0;
+        cursor: pointer;
+}
+}
+
+li:hover{
+    color: #043353;
+}

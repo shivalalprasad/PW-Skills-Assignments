@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video & audio Media</title>
+    <link rel="icon" href="https://pwskills.com/images/favicon.ico"/>
+    <style>
+        .media{
+            display: grid;
+            grid-template-columns: auto auto;
+            height: 100%;
+            width: 100%;
+        }
+        .video{
+            /* display: flex; */
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            margin: 0 auto;
+        }
+        video{
+            height: 100%;
+        }
+        .audio{
+            margin: auto;
+        }
+        span{
+            font-family: monospace;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <div class="media">
+        <div class="video">
+            <video  controls autoplay="true" loop 
+            poster="me-at-the-zoo.jpeg">
+            <source src="me-at-the-zoo.mp4" type="video/mp4">
+            </video>
+            <h3> Me at The Zoo </h3>
+            <span>Firt Youtube Video</span>
+        </div>
+        
+        <div class="audio">
+            <audio  src="maa-kgf.mp3"controls autoplay="true" loop></audio>
+            <h3>Kokh Ke Rath Mein (From "Kgf Chapter 1")</h3>
+            <span>Super Song Dedicated to Mom'</span>
+        </div>
+    </div>
+</body>
+</html>

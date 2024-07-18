@@ -1,0 +1,41 @@
+* {
+    margin: 0;padding: 0;   /* we will remove the default margin and padding that browser uses by default  */
+    box-sizing: border-box; 
+}
+
+html { /* tageting the tag selector  */
+    box-sizing: inherit;
+    margin: 10px;
+}
+
+.main * {     /*   targeting all elements which are the childs of main   */
+    height: 45px;
+    width: auto;
+    border: 2px solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 8px;
+    margin: 20px auto;
+}
+
+.one {/*   targeting elements which have class name one */
+    background-color: #FFEBC9;
+}
+
+#two { /*   targeting elements which have  id two */
+    background-color: #D79771;    
+}
+
+section.three { /*   targeting elements in section tag have class name three */
+    background-color: #B05B3B;
+}
+
+.four { /* targeting th element in external css*/
+    background-color: #285430;
+}
+
+
+
+

@@ -1,0 +1,17 @@
+
+
+
+
+.image {
+    
+    margin: 15vh auto;
+    width: 500px;
+    height: 500px;
+    background-color: #FF7100;
+    border-radius: 250px;
+    img{
+        width: 500px;
+        height: 500px;
+        border-radius: 250px;
+    }
+}

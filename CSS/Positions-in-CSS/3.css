@@ -1,0 +1,18 @@
+.main {
+    width: 80%;
+    margin: 100px  auto;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #CABCB0;
+    
+    div{
+        font-size: larger;
+        padding-bottom: 5px;
+    }
+    img{
+        width: 25%;
+        float: right;
+        border-radius: 20px;
+    }
+}

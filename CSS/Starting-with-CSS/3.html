@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="3.css">
+    <link
+      rel="shortcut icon"
+      href="https://pwskills.com/images/favicon.ico"
+      type="image/x-icon"
+    />
+</head>
+<body>
+    <form class="my-form">
+        <div class="form-section">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <div class="form-section form-section--transparent">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+    <!-- Custom Color Palette:
+
+We define custom colors using CSS variables (--primary-color, --secondary-color, etc.) in the :root selector. This makes it easy to change the color scheme later.
+Form Styling:
+
+The form has a light gray background and rounded corners.
+Labels are displayed as blocks and have a gray color.
+Input fields and textareas have white backgrounds, light gray borders, and rounded corners.
+The submit button has the primary blue color.
+Opacity:
+
+The .form-section--transparent class is added to the second form section to apply an opacity of 0.7 (70%). This makes the section semi-transparent. -->
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Styling methods</title>
+    <link rel="stylesheet" href="1.css" />
+    <link
+      rel="shortcut icon"
+      href="https://pwskills.com/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <style>
+        .four { /* targeting the element in internal css*/
+            background-color: #F07B7B ;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+        <!-- element  with className -->
+      <div class="one">className selector element.</div>
+        <!-- element  with id -->
+      <div id="two">id selector element.</div>
+              <!-- element  with TagName & className -->
+      <section class="three">TagName.ClassName selector element.</section>
+              <!-- element  which we taeget for inline, internal & external CSS -->
+      <div class="four" style="background-color: #5D5C19;" >
+        <!-- targeting th element in inline css 
+         =>>here the inline css only apply because it has priority among internal & external css -->
+        element with inline, internal, and external CSS.</div>
+    </div>
+  </body>
+</html>

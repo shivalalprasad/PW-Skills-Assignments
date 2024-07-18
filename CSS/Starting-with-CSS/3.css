@@ -1,0 +1,59 @@
+/* Custom Color Palette */
+:root {
+    --primary-color: #FBC233; 
+    --secondary-color: #323039; 
+    --background-color: #F4E9DC; 
+    --input-background: #FFF7E3;
+}
+
+body {
+    height: 96vh;
+    background: rgb(209, 220, 224);
+}
+
+
+.my-form {
+    background-color: var(--background-color);
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.form-section {
+    margin-bottom: 15px;
+}
+
+input {
+    line-height: 25px
+  }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--secondary-color);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding-left: 10px;
+    border: 1px solid #ced4da; /* Light Gray Border */
+    border-radius: 4px;
+    background-color: var(--input-background);
+}
+
+button[type="submit"] {
+    background-color: var(--primary-color);
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Opacity for Specific Section */
+.form-section--transparent {
+    opacity: 0.7; /* 70% opacity */
+}

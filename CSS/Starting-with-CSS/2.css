@@ -1,0 +1,28 @@
+* {
+    margin: 0;padding: 0;
+}
+
+/* Basic paragraph styles */
+.paragraph {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    margin: 2%;
+}
+
+/* Block Element Modifier styles */
+.paragraph--intro {
+    font-style: italic;
+}
+
+.paragraph--highlight {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-left: 5px solid #007bff; /* Blue border for emphasis */
+}
+
+.paragraph--quote {
+    font-family: "Times New Roman", serif;
+    font-size: 1.2em;
+    margin-left: 50px; /* Indent the quote */
+    border-left: 2px solid #ccc; /* Subtle border */
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Acme&display=swap');
+  .aclonica-regular {
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto+Mono:ital,wght@0,300;1,300&display=swap');
+  /* font-family: "Roboto Mono", monospace; */
+  @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Acme&family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+  /* font-family: "Advent Pro", sans-serif; */
+
+  @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Acme&family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Fira+Code:wght@300..700&display=swap');
+  /* font-family: "Fira Code", monospace; */
+
+  @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
+  /* font-family: "Alumni Sans Pinstripe", sans-serif; */
+
+  p{
+    font-family: "Advent Pro", sans-serif !important; 
+    font-size: 20px;
+    padding-left: 25px;
+  }
+  h2{
+    font-family: "Acme", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .code{
+    font-size: 18px;
+    font-family: "Fira Code", monospace !important;
+  }
+  ul li {
+    font-size: 18px;
+    list-style: url("arrow.svg");
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+  }
+ li::marker{
+  text-align: right;
+ }
+ .semibold{
+  font-family: "Roboto Mono", monospace ;
+  font-weight: 600;
+ }
+
+

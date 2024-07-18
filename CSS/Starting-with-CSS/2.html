@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM Styled Paragraphs</title>
+    <link rel="stylesheet" href="2.css">
+    <link
+      rel="shortcut icon"
+      href="https://pwskills.com/images/favicon.ico"
+      type="image/x-icon"
+    />
+</head>
+<body>
+    <div class="paragraph-container">
+        <p class="paragraph paragraph--intro">This is the introductory paragraph. It sets the scene.</p>
+        <p class="paragraph paragraph--highlight">This paragraph is highlighted to emphasize key information.</p>
+        <p class="paragraph paragraph--quote">This is a quoted section from a reliable source.</p>
+        <p class="paragraph">This is a regular paragraph with standard styling.</p>
+    </div>
+<!-- BEM Naming Convention:
+
+BEM stands for Block, Element, Modifier. It's a way to structure CSS class names to make them more organized, reusable, and understandable. Here's how it breaks down:
+
+Block: The main, standalone component of your design. In this example, our block is .paragraph-container. This isn't styled directly but is used for structure.
+Element: A part of the block that doesn't make sense on its own. Each paragraph is an element within the .paragraph-container block, so they get the class .paragraph.
+Modifier: A flag that changes the appearance or behavior of an element. We use modifiers like .paragraph--intro, .paragraph--highlight, and .paragraph--quote to apply specific styles to individual paragraphs.
+Key Points:
+
+Hyphens: Hyphens are used to separate block, element, and modifier names.
+Double hyphens: Double hyphens are used to indicate a modifier.
+Readability: The BEM naming convention makes your CSS code more self-documenting. Just by looking at the class names, you can quickly understand the structure and purpose of the elements.
+How It Works:
+
+The basic .paragraph class sets default styles for all paragraphs.
+The modifier classes (e.g., .paragraph--highlight) override or add to those default styles to create variations.
+The .paragraph-container is a structural block and isn't styled itself, but it helps organize the layout. -->
+</body>
+</html>
