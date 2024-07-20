@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Section</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    *{
+      margin: 0;padding: 0;box-sizing: border-box;
+
+    }
+    html{
+      box-sizing: inherit;
+      font-family: "Montserrat", sans-serif;
+    }
+    body{
+      height: 96vh;
+      width: 98vw;
+      background-color: #E6E6E4;
+
+    }
+    .main {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 2%;
+    }
+
+    .box {
+      width: 25vw;
+      height: 25vw;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+      padding: 1vw 2.5vw;
+      div{
+        margin-bottom: 2vw;
+      }
+    }
+
+
+
+    .box:hover{
+      color: #f2f2f2;
+      background-color: #30475E;
+      transition: all 250ms ease-in-out;
+      cursor: pointer;
+      }
+
+
+
+
+    .plan-head {
+      font-size: xx-large;
+      font-weight: 500;
+
+      span {
+        font-size: x-large;
+      }
+    }
+
+    .price {
+      font-size: xx-large;
+    }
+
+    .plan-details {
+      li {
+        list-style-image: url(plan-details-list.svg);
+        margin: 1.5vw 0vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="box box-1">
+      <div class="plan-head">
+        <h3>Free Plan</h3>
+        <span class="plan-head-desc">
+          for Personal
+        </span>
+      </div>
+      <div class="price">
+        $0
+      </div>
+      <div class="plan-details">
+        <li> 1 user</li>
+        <li> 4 Web mails</li>
+        <li> Responsive Website</li>
+        <li> Free SSL</li>
+      </div>
+    </div>
+    <div class="box box-2">
+      <div class="plan-head">
+        <h3>Basic Plan</h3>
+        <span class="plan-head-desc">
+          for small business
+        </span>
+      </div>
+      <div class="price">
+        $29
+      </div>
+      <div class="plan-details">
+        <li> 4 users</li>
+        <li> 10 Web mails</li>
+        <li> Responsive Website</li>
+        <li> Free SSL</li>
+      </div>
+    </div>
+    <div class="box box-3">
+        <div class="plan-head">
+          <h3>Pro Plan</h3>
+          <span class="plan-head-desc">
+            for enterprise
+          </span>
+        </div>
+        <div class="price">
+          $49
+        </div>
+        <div class="plan-details">
+          <li> Unlimited user</li>
+          <li> Unlimited Web mails</li>
+          <li> Responsive Website</li>
+          <li> Free SSL + SEO</li>
+        </div>
+    </div>
+</body>
+</html>
