@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Gallery</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        box-sizing: inherit;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+      }
+
+      .grid {
+        border: 2px solid;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: repeat(3, 25vw);
+        grid-template-rows: repeat(3, 25vh);
+        gap: 5px;
+        /* overflow: hidden; */
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 15px;
+      }
+
+      .gallery-item:first-child {
+        grid-column: span 2;
+        width: 100%;
+      }
+
+      .gallery-item:nth-child(3) {
+        grid-row: span 2;
+        height: 100%;
+      }
+
+      .gallery-item:nth-child(5) {
+        grid-row: span 2;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="gallery-item">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1709031620960-877745c2bc34?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2FsbGVyeXxlbnwwfHwwfHx8MA%3D%3D"
+          alt=""
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://konnectinsights.com/wp-content/uploads/2023/08/Marketing-Trends-In-Pharma-Industry-800x600.png"
+          alt=""
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://media.licdn.com/dms/image/D5612AQFEDEfvQUQayQ/article-cover_image-shrink_600_2000/0/1683172381807?e=2147483647&v=beta&t=kO2ln4tMZEXbl1J6aGePxCKHN_ovG1bYLM8ok9PlbIM"
+          alt=""
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://www.uscmed.com/wp-content/uploads/2019/12/How-to-Succeed-in-the-Medical-Industry.jpg"
+          alt=""
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://www.ohra.net/fileadmin/media/branches/fotos_holzhandel/kragarmregale/kragarmregal_holzhandel01.jpg"
+          alt=""
+        />
+      </div>
+      <div class="gallery-item">
+        <img
+          src="https://optimise2.assets-servd.host/smart-hoopoe/production/content/images/007_digital_pharma_manufacturing.jpg?w=1920&h=1080&auto=compress%2Cformat&fit=crop&dm=1657634471&s=169e59c17a0139c481a4e56bcfea0286"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
