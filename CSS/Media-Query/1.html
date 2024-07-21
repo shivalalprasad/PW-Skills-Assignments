@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responcive</title>
+    <link rel="icon" href="https://pwskills.com/images/favicon.ico" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        box-sizing: inherit;
+      }
+      navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: xx-large;
+
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px,
+          rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+          rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      }
+
+      .nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 10px;
+      }
+      a {
+        text-decoration: none;
+      }
+      a,
+      a:visited,
+      a:hover,
+      a:active {
+        color: inherit;
+      }
+      .navlist {
+        text-align: center;
+        background-color: #ffeb00;
+        border: 2px solid black;
+        font-size: 2rem;
+      }
+      hr {
+        height: 1vh;
+        background-color: blue;
+      }
+
+      p {
+        line-height: 10vh;
+        font-size: 1.75rem;
+        color: #180076;
+      }
+
+      @media screen and (max-width: 600px) {
+        navbar {
+          background-color: #180076;
+        }
+        p {
+          font-size: medium;
+        }
+
+        .navlist {
+          font-size: x-large;
+        }
+        h1 {
+          font-size: larger;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <navbar>
+      <span>HEADER</span>
+    </navbar>
+    <div class="nav">
+      <a href="#">
+        <div class="navlist">Home</div>
+      </a>
+      <a href="#">
+        <div class="navlist">Web Development</div>
+      </a>
+      <a href="#">
+        <div class="navlist">Web Design</div>
+      </a>
+    </div>
+    <hr />
+    <div>
+      <h1>The Future of Web Design: Trends to Watch in 2024 and Beyond</h1>
+      <p>
+        Web design is constantly evolving, with new trends emerging to shape the
+        way we interact with websites and digital experiences. In 2024, expect
+        to see a focus on immersive designs, incorporating 3D elements,
+        interactive storytelling, and kinetic typography. User experience (UX)
+        remains paramount, with designs prioritizing accessibility and seamless
+        navigation across devices. Artificial intelligence (AI) will also play
+        an increasingly important role in web design, from generating
+        personalized content to optimizing site performance. As technology
+        advances, web designers will continue to push the boundaries, creating
+        more engaging and intuitive digital experiences that captivate and
+        inspire.
+      </p>
+    </div>
+  </body>
+</html>

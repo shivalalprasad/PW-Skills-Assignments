@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Grid</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        box-sizing: inherit;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      .grid-item {
+        height: 200px;
+        background-color: #fdebd9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .grid-item:nth-child(1) {
+        background-color: #f1ebd3;
+      }
+      .grid-item:nth-child(2) {
+        background-color: #264f73;
+      }
+      .grid-item:nth-child(3) {
+        background-color: #ff7350;
+      }
+      .grid-item:nth-child(4) {
+        background-color: #42cde7;
+      }
+
+      @media screen and (max-width: 500px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+        body {
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="grid-item">Box 1</div>
+      <div class="grid-item">Box 2</div>
+      <div class="grid-item">Box 3</div>
+      <div class="grid-item">Box 4</div>
+    </div>
+  </body>
+</html>

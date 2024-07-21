@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        box-sizing: inherit;
+      }
+
+      .main {
+        display: flex;
+      }
+
+      .box {
+        width: 80vw;
+        height: 100vh;
+        .sidebar {
+          width: 100%;
+          height: 50%;
+          text-align: center;
+          font-size: x-large;
+          background-color: #113963;
+          padding-top: 20px;
+        }
+        .content {
+          padding-top: 20px;
+          width: 100%;
+          height: 50%;
+          font-size: x-large;
+          text-align: center;
+          background-color: #f54c54;
+        }
+      }
+
+      .header {
+        background-color: #f1ebd3;
+        width: 10vw;
+        text-align: center;
+        font-size: large;
+        padding-top: 20px;
+      }
+      .footer {
+        background-color: #f1ebd3;
+        width: 10vw;
+        text-align: center;
+        font-size: large;
+        padding-top: 20px;
+      }
+
+      @media screen and (max-width: 600px) {
+        .main {
+          display: flex;
+          flex-direction: column;
+        }
+        .box {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 80vh;
+          .sidebar {
+            width: 100%;
+            height: 10vh;
+          }
+          .content {
+            height: 10vh;
+            width: 100%;
+          }
+        }
+        .header {
+          height: 10vh;
+          width: 100%;
+        }
+        .footer {
+          height: 10vh;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">Header</div>
+      <div class="box">
+        <div class="sidebar">Sidebar</div>
+        <div class="content">Content</div>
+      </div>
+      <div class="footer">Footer</div>
+    </div>
+  </body>
+</html>
