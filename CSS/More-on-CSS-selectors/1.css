@@ -1,0 +1,48 @@
+/*  B CSS Starts from here */
+
+a*{
+  color: red;
+}
+
+nav>h2{
+  color: #17224D ;
+  background-color: #007FFF;
+}
+div + p{
+  color: red;
+}
+
+/* C CSS Starts from here */
+
+a[href]{
+  color: red;
+  text-decoration: none;
+}
+
+a.active{
+  color: #1B42CB;
+}
+a.active:hover{
+  text-decoration: underline;
+}
+
+a[target="_self"]{
+  background-color: #EEECF6;
+}
+
+/*  D CSS Starts here */
+
+p:last-child::after{
+  content: "...";
+}
+
+li::marker{
+  color: #7F444F;
+}
+
+p:nth-child(4)::first-letter{
+  color: red;
+  font-size: 30px;
+}
+
+
