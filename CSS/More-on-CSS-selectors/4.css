@@ -1,57 +1,28 @@
-body{
+body {
   height: 97vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.pw-button{
+.pw-button {
+  outline: none;
+  border: none;
+}
+
+.pw-button:hover::before {
+  background-color: #255B6E;
+  box-shadow: 18px 9px rgba(0,0,0,0.2);
+}
+
+.pw-button::before {
   padding:20px 32px;
   font-size: xx-large;
   border-radius: 10px;
   background-color: #043353;
   color: #fff;
   border: none;
-  position: relative;
-  cursor: pointer;
-  transition: all 250ms ease-in-out;
-}
-
-.pw-button:hover{
-  background-color: #255B6E;
-  box-shadow: 18px 9px rgba(0,0,0,0.2)
-}
-
-.pw-button::before {
-  left: -250px;
-}
-
-.pw-button::after {
-  right: -250px;
-}
-
-.pw-button::before,
-.pw-button::after {
-  /* display: none; */
-  padding:20px 32px;
-  font-size: xx-large;
-  border-radius: 10px;
-  background-color: #255B6E;
-  color: #fff;
-  border: none;
-  position: relative;
   cursor: pointer;
   transition: all 250ms ease-in-out;
   content: "PW Skills";
-  position: absolute;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  box-shadow: -18px -9px rgba(0,0,0,0.2)
 }
-
-.pw-button:hover::before,
-.pw-button:hover::after {
-  /* display: flex; */
-  opacity: 1;
-}
-
