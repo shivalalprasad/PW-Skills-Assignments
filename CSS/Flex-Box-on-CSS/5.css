@@ -1,0 +1,48 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+html{box-sizing: inherit;}
+
+body{font-family: 'Open Sans', sans-serif;}
+
+nav{
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+#ir-logo{
+  width: 10%;
+  margin-right: 50px;
+  padding-left: 10px;
+}
+
+#irctc-logo {
+  width: 10%;
+  padding-right: 10px;
+  margin-left: 50px;
+}
+
+.nav-lists{
+  width: 80%;
+  margin-left: 20px;
+  .nav-1{
+    width: 100%;
+    ul{
+      width: 100%;
+      display: flex;
+      gap: 15px;
+    }
+  }
+  .nav-2{
+    width: 100%;
+    ul{
+      width: 100%;
+      display: flex;
+    }
+  }
+}
+
+nav ul li {
+  list-style: none;
+  margin:4px 10px;
+}
+
