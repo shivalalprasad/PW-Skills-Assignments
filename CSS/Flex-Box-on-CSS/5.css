@@ -1,48 +1,196 @@
-*{margin: 0;padding: 0;box-sizing: border-box;}
-html{box-sizing: inherit;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-body{font-family: 'Open Sans', sans-serif;}
+html {
+  box-sizing: inherit;
+}
 
-nav{
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.main {
   display: flex;
-  margin-top: 10px;
+  height: 97vh;
+}
+
+.vande-bharat-express-rail {
+  width: 50%;
+  height: 99.55vh;
+  img {
+    height: 100%;
+  }
+}
+
+.home {
+  width: 50%;
+  margin-left: 6%;
+  margin-top: 4%;
+}
+
+nav {
+  width: 100%;
+  display: flex;
   align-items: center;
-}
+  margin-bottom: 25px;
+  .nav-links {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+  }
 
-#ir-logo{
-  width: 10%;
-  margin-right: 50px;
-  padding-left: 10px;
-}
-
-#irctc-logo {
-  width: 10%;
-  padding-right: 10px;
-  margin-left: 50px;
-}
-
-.nav-lists{
-  width: 80%;
-  margin-left: 20px;
-  .nav-1{
-    width: 100%;
-    ul{
-      width: 100%;
-      display: flex;
-      gap: 15px;
+  .nav-links-item {
+    div {
+      cursor: pointer;
+    }
+    .nav-buttons {
+      margin-top: 15%;
+      padding: 8px 10px;
+      border-radius: 8px;
+      text-align: center;
+      border: 1px solid #b9b9b9;
     }
   }
-  .nav-2{
-    width: 100%;
-    ul{
-      width: 100%;
-      display: flex;
-    }
+  .login{
+    background-color: #ff8940ee;
+  }
+  .logos {
+    width: 40%;
+    display: flex;
+    gap: 10%;
   }
 }
 
-nav ul li {
-  list-style: none;
-  margin:4px 10px;
+.head {
+  width: 100%;
+  height: 25%;
+  margin-top: 6%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10%;
+
+  .head-text {
+    font-size: xxx-large;
+    font-weight: bolder;
+    color: #3c3c3c;
+  }
+
+  .tagline {
+    display: flex;
+    gap: 5%;
+    font-size: xx-large;
+
+    .safety {
+      color: #01bb0a;
+    }
+    .security {
+      color: #fb792b;
+    }
+    .punctuality {
+      color: #213d77;
+    }
+  }
 }
 
+.options {
+  display: flex;
+  width: 100%;
+  margin-bottom: 3%;
+  gap: 25px;
+  div {
+    display: flex;
+    font-size: 21px;
+    padding-left: 10px;
+    padding-right: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: #3c3c3c;
+    height: 45px;
+    border: 1px solid #9c9c9c;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .book-tickets {
+    background-color: #163c88;
+    color: #f2f2f2;
+  }
+  .book-tickets::before {
+    content: url(./assets/book-ticket.png);
+    width: 25px;
+    padding-right: 10px;
+    margin-top: 4px;
+  }
+  .pnr-status::before {
+    content: url(./assets/pnr-status.png);
+    width: 25px;
+    padding-right: 10px;
+    margin-top: 4px;
+  }
+  .charts-vacency::before {
+    width: 25px;
+    content: url(./assets/charts-vacancy.png);
+    padding-right: 10px;
+    margin-top: 4px;
+  }
+}
+
+.from,.to {
+  display: flex;
+  padding-top: 7px;
+  color: #717171;
+}
+
+.from::after,.to::after {
+  content: url(./assets/expand-more.png);
+  cursor: pointer;
+}
+
+
+.booking {
+  display: flex;
+  flex-direction: column;
+  .booking-place {
+    border: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 92.5%;
+    border-radius: 15px;
+    margin-bottom: 2.5%;
+    .place-details,.destination {
+      display: flex;
+      .place-name{
+        font-size: x-large;
+        font-weight: bold;
+        color: #3c3c3c;
+        cursor: pointer;
+      }
+      .station-name{
+        display: flex;
+        color: #717171;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.place-details-img,.destination-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.revert{
+  content: url(./assets/from-to.png);
+  cursor: pointer;
+}
