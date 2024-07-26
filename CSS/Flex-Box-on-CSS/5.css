@@ -18,8 +18,16 @@ body {
 }
 
 .vande-bharat-express-rail {
-  width: 50%;
-  height: 99.55vh;
+  width: 49%;
+  height: 100%;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+
+.vande-bharat-express-rail::-webkit-scrollbar {
+  display: none;
 }
 
 .home {
@@ -51,7 +59,7 @@ nav {
       border: 1px solid #b9b9b9;
     }
   }
-  .login{
+  .login {
     background-color: #ff8940ee;
   }
   .logos {
@@ -137,17 +145,18 @@ nav {
   }
 }
 
-.from,.to {
+.from,
+.to {
   display: flex;
   padding-top: 7px;
   color: #717171;
 }
 
-.from::after,.to::after {
+.from::after,
+.to::after {
   content: url(./assets/expand-more.png);
   cursor: pointer;
 }
-
 
 .booking {
   display: flex;
@@ -161,15 +170,16 @@ nav {
     width: 92.5%;
     border-radius: 15px;
     margin-bottom: 2.5%;
-    .place-details,.destination {
+    .place-details,
+    .destination {
       display: flex;
-      .place-name{
+      .place-name {
         font-size: larger;
         font-weight: bold;
         color: #3c3c3c;
         cursor: pointer;
       }
-      .station-name{
+      .station-name {
         display: flex;
         color: #717171;
         padding-top: 7px;
@@ -180,7 +190,8 @@ nav {
   }
 }
 
-.place-details-img,.destination-img{
+.place-details-img,
+.destination-img {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -188,12 +199,12 @@ nav {
   cursor: pointer;
 }
 
-.revert{
+.revert {
   content: url(./assets/from-to.png);
   cursor: pointer;
 }
 
-.train-search{
+.train-search {
   width: 92.5%;
   padding-top: 15px;
   padding-bottom: 15px;
