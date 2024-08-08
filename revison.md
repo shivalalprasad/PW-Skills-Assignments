@@ -73,15 +73,14 @@ sizes.`
 
 ##### Additional Considerations
 
-- ###### Grading Rubric: Develop a clear grading rubric for each assignment outlining expectations for HTML structure, CSS styling, layout, responsiveness, and overall quality.
 
-- ###### Code Quality: Emphasize clean, well-structured, and commented code.
+- ###### **Code Quality**: Emphasize clean, well-structured, and commented code.
 
-- ###### Creativity: Encourage students to experiment with different design styles and approaches.
+- ###### **Design**Creativity: Encourage students to experiment with different design styles and approaches.
 
-- ###### Accessibility: Promote the importance of creating accessible websites.
+- ###### **Accessibility**: Promote the importance of creating accessible websites.
 
-- ###### Responsive Design: Highlight the significance of responsive design for different screen sizes.
+- ###### **Responsive Design**: Highlight the significance of responsive design for different screen sizes.
 
 
 [excalidraw](https://excalidraw.com/#room=7a0e08d728bcc14286dd,Y2JF0tfQpKhOxwQ4bLRFIg)
